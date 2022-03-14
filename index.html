@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Create an account or log into Duckbook. Connect with friends, family and other ducks you know. Share photos and videos, send messages and get updates.">
+    <meta name="Author" content="Shanaka">
+    <title>Duckbook</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;600;700;800&family=Pacifico&family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/3e3b8dd372.js" crossorigin="anonymous"></script>
+
+    <!-- flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--================= TITLE ====================-->
+
+    <section id="title">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Duckbook</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <button class="btn btn-outline-warning sign-in-up">Sign In</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <button class="btn btn-outline-light sign-in-up">Sign Up</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+    <!--================= LOGIN ====================-->
+
+        <div class="row login-section">
+            <div class="col-lg-6">
+                <h1 class="main-heading">Duckbook helps you connect and share with the ducks in your life</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with any other duck.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Login</button>
+                  </form>
+            </div>
+            <div class="col-lg-6 main-duck">
+                <img src="images/wave.gif" alt="waving duck">
+            </div>
+        </div>
+    </section>
+
+    <!--================= MIDDLE ====================-->
+
+    <section class="quote-section">
+        <div class="row quote">
+            <div class="col-lg-12">
+                <h2>A Word from the Founder</h2>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/trump.jpg" alt="Duck Trump">
+            </div>
+            <div class="col-lg-6">
+                
+                <p>
+                    "Enjoy the Duckbook.
+                    <br>Bye.
+                    <br>Gn. Bs"
+                </p>
+                <em>~ Duck Trump</em>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--================= DUCKS ===================-->
+
+    <section class="ducks">
+        <div class="ducks-heading">
+            <h2>Ducks You May Know!</h2>
+            <div class="alert alert-light" role="alert">
+                <em>(Please <a href="#" class="alert-link">login</a> login to add them as friends okay?)</em>
+            </div>
+        </div>
+        <div class="duck-carousel" data-flickity='{ "freeScroll": true }'>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Duckman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Don Duckman</h5>
+                    <em class="card-text">News Reporter</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Thaarii.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Thaarii</h5>
+                    <em class="card-text">Undergraduate</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Dotty.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Dotty</h5>
+                    <em class="card-text">Model</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Sir Duckalas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Sir Duckalas</h5>
+                    <em class="card-text">Knight</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Karen.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Karen</h5>
+                    <em class="card-text">Housewife</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <div class="card">
+                    <img src="images/Duckstein.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Albert Duckstein</h5>
+                    <em class="card-text">Scientist</em>
+                    <br>
+                    <a href="#" class="btn btn-success">Add Friend</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================= CAROUSEL ====================-->
+
+    <section id="main-carousel-section">
+        <section id="carousel-section">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active" id="ci-1">
+                    <div class="row" id="ci">
+                        <div class="col-lg-12">
+                            <h2>All New Duck VR Headset</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5>REASONS TO BUY</h5>
+                            <ul type="none">
+                                <li>+ High resolution display</li>
+                                <li>+ Blocks out light better than other VR headsets</li>
+                                <li>+ Built-in headphones</li>
+                            </ul>
+                            <h5>REASONS TO AVOID</h5>
+                            <ul type="none">
+                                <li>- Nothing</li>
+                            </ul>
+                            <button class="btn btn-dark">Pre-Order Now</button>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/vr.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="ci-2">
+                    <div class="row" id="ci">
+                        <div class="col-lg-12">
+                            <h2>New Release</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/band.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>DucklingPark New Album</h4>
+                            <h1>[DUCK THEORY]</h1>
+                            <h4>OUT NOW</h4>
+                            <p>Listen on:</p>
+                            <button class="btn btn-dark"><i class="fa-solid fa-music"></i> Apple Music</button>
+                            <br>
+                            <button class="btn btn-success"><i class="fa-brands fa-spotify"></i> Spotify</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="ci-3">
+                    <div class="row" id="ci">
+                        <div class="col-lg-12">
+                            <h2>NEWS ALERT!</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/news.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>To bring more news like this,<br>Download our News App <strong>Duck First</strong></p>
+                            <button class="btn btn-dark"><i class="fa-brands fa-apple"></i> Download</button>
+                            <button class="btn btn-outline-light"><i class="fa-brands fa-google-play"></i> Download</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carousel" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </section>
+    </section>
+
+    <!--================= SUBSCRIPTION ====================-->
+
+    <section class="subscription-section">
+
+        <div class="subscription-title">
+            <h2>A Plan for Every Duck's Needs</h2>
+            <p>Simple and affordable price plans for you</p>
+        </div>
+
+        <div class="row subs-cards-row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card" id="subs-card">
+                    <div class="card-header">
+                      Basic
+                    </div>
+                    <div class="card-body">
+                      <h2 class="card-title">Free</h2>
+                      <p class="card-text">Boring Stuff</p>
+                    </div>
+                    <div class="sign-a">
+                        <a href="#" class="btn btn-light btn-lg">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card pro" id="subs-card">
+                    <div class="card-header">
+                        Pro
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">$69/mo</h2>
+                        <p class="card-text">Boring Stuff but without ADS</p>
+                        <h2 id="best-choice">Best<br>Choice!</h2>
+                    </div>
+                    <div class="sign-a">
+                        <a href="#" class="btn btn-light btn-lg">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" id="subs-card">
+                    <div class="card-header">
+                        Premium
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">$99/mo</h2>
+                        <p class="card-text">Same as Pro but More Expensive</p>
+                    </div>
+                    <div class="sign-a">
+                        <a href="#" class="btn btn-light btn-lg">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="sub-footer">
+            <h2>"Be like a duck. Calm on the surface, but always paddling like the dickens underneath."</h2>
+            <em><h3>~ Michael Caine</h3></em>
+            <img class="momduck" src="images/momduck.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <p>© Copyright 2022 Duckbook</p>
+    </footer>
+        
+    
+</body>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://kit.fontawesome.com/3e3b8dd372.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+</html>

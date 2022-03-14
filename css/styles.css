@@ -1,0 +1,326 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+hr{
+    width: 30%;
+    border: solid white 7px;
+    border-bottom: none;
+}
+
+@media (max-width:992px){
+    *{
+        font-size: 1.3rem;
+    }
+}
+
+/*==================== TOP =========================*/
+#title{
+    background-image: linear-gradient(to left bottom, #168aad, #0093ae, #009cac, #18a4a8, #32aca3, #43b4a0, #55bb9c, #67c298, #78cb96, #8bd492, #a0dc8f, #b5e48c);
+    color: white;
+}
+
+.main-menu{
+    text-align: center;
+}
+
+.sign-in-up{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+.login-section{
+    width: 100%;
+    padding: 5% 10%;
+}
+
+.login-section h1{
+    font-weight: 800;
+}
+
+.login-section form{
+    padding-top: 50px;
+    width: 400px;
+}
+
+
+.main-duck{
+    text-align: center;
+}
+
+.main-duck img{
+    width: 95%;
+}
+
+@media (max-width:992px){
+    .navbar-brand{
+        margin: auto;
+    }
+
+    .login-section form{
+        margin: auto;
+        width: 70%;
+    }
+
+    .main-duck img{
+        width: 70%;
+    }
+}
+
+/*==================== MID =========================*/
+.quote-section{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.quote{
+    width: 85%;
+    margin: 50px auto;
+    padding: 5%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quote h2{
+    text-align: center;
+}
+
+.quote img{
+    width: 70%;
+}
+
+.quote p{
+    margin-top: 50px;
+    font-size: 1.3rem;
+}
+
+@media (max-width:992px){
+    .quote{
+        text-align: center;
+    }
+
+    .quote img{
+        width: 50%;
+    }
+}
+
+/*==================== DUCK CAROUSAL =========================*/
+
+.ducks{
+    padding: 50px 0;
+    background-image: linear-gradient(to right top, #168aad, #0093ae, #009cac, #18a4a8, #32aca3, #43b4a0, #55bb9c, #67c298, #78cb96, #8bd492, #a0dc8f, #b5e48c);
+}
+
+.ducks-heading{
+    width: 85%;
+    margin: auto;
+    color: white;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.duck-carousel{
+    margin: 30px 0;
+}
+
+.carousel-cell{
+    width: 27%;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.carousel-cell em{
+    font-size: 1rem;
+}
+
+.carousel-cell a{
+    margin-top: 20px;
+}
+  
+@media (max-width:992px){
+    .ducks{
+        width: 100%;
+    }
+    
+    .carousel-cell{
+        width: 350px;
+    }
+}
+
+/*==================== CAROUSAL =========================*/
+#main-carousel-section{
+    padding: 50px 0;
+    background-image: linear-gradient(to right bottom, #084594, #004b92, #00518f, #00568a, #005a85, #006085, #006585, #006a84, #007388, #007c8a, #00858a, #008e89);
+}
+
+#carousel-section{
+    width: 85%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#carousel img{
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+.carousel-item{
+    height: 70vh;
+    padding: 3% 11%;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.carousel-item h2{
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+.carousel-item button{
+    margin: 30px 10px 0 10px;
+    padding: 10px 10%;
+}
+
+@media (max-width:992px){
+    .carousel-item{
+        height: 900px;
+    }
+}
+
+#ci{
+    padding: auto;
+    top: 0;
+    bottom: 0;
+}
+
+#ci-1{
+    background-image: linear-gradient(to right, #e9e9e9, #ededed, #f1f1f1, #f5f5f5, #f9f9f9, #f9f9f9, #f9f9f9, #f9f9f9, #f5f5f5, #f1f1f1, #ededed, #e9e9e9);
+    text-align: center;
+}
+
+#ci-1 ul{
+    text-align: left;
+}
+
+#ci-2{
+    background-image: linear-gradient(to bottom, #00327e, #1b2a61, #1f2346, #1d1c2d, #161616);
+    color: white;
+    text-align: center;
+}
+
+#ci-2 h1{
+    font-family: 'VT323', monospace;
+    font-size: 4rem;
+}
+
+#ci-2 button{
+    width: 330px;
+    margin: 0 0 10px 0;
+}
+
+#ci-3{
+    background-image: linear-gradient(to bottom, #8a0000, #840027, #6f0042, #4a0056, #00185d);
+    color: white;
+    text-align: center;
+}
+
+/*==================== SUBSCRIPTIONS =========================*/
+.subscription-section{
+    background-image: linear-gradient(to right bottom, #168aad, #0093ae, #009cac, #18a4a8, #32aca3, #43b4a0, #55bb9c, #67c298, #78cb96, #8bd492, #a0dc8f, #b5e48c);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.subscription-title{
+    color: white;
+}
+
+.subs-cards-row{
+    margin: auto;
+    width: 80%;
+}
+
+#subs-card{
+    margin: 50px 0;
+    height: 500px;
+    
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.card-header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #358f80, #3e9785, #489e8a, #51a68f, #5aae94, #5aae94, #5aae94, #5aae94, #51a68f, #489e8a, #3e9785, #358f80);
+    color: white;
+    margin-top: 20px;
+}
+
+.card-body{
+    font-size: 1.5rem;
+}
+
+#best-choice{
+    font-family: 'Pacifico', cursive;
+    margin-top: 50px;
+    color: white;
+}
+
+.sign-a{
+    margin: 0 auto 20px auto;
+    width: 100%;
+}
+
+.sign-a a{
+    width: 80%;
+}
+
+.pro:hover{
+    background-color: #358f80;
+}
+
+#subs-card:hover{
+    background-color: #264653;
+    color: white;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
+.sub-footer{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.momduck{
+    width: 300px;
+    margin: 100px auto 0 auto;
+}
+
+footer p{
+    text-align: center;
+    margin: 70px auto;
+}
